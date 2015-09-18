@@ -12,6 +12,9 @@ Make a CryptedData object with the type of your object/field
 Use the value property
 
     cryptedInt.value = 10;
-    Debug.Log(cryptedInt.value);
+    if(cryptedInt.value == 10)
+    {
+        //To do something...
+    }
 
 Welldone! The hackers can not find the cryptedInt data! (Or it is much difficult!)
